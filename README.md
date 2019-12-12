@@ -13,3 +13,12 @@ The file receiving messages has 2 types of codes - static and dynamic. In static
 2. If your SIM900A is not working, try 12V/2A supply, mine worked with this only.
 3. The N/W led will blink every 3 seconds once a connection has been established.
 4. In India, SIM900A works well with 4G SIM Cards - Airtel, Idea and Vodafone but not with JIO.
+
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
