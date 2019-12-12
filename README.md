@@ -1,6 +1,6 @@
 This repository has codes for interfacing GSM SIM900A with ESP32 microcontroller.
 The file "all functions" has the following features
-Markup: 1. Sending SMS
+Markup : 1. Sending SMS
         2. Receiving SMS
         3. Calling
         4. Receive a call
