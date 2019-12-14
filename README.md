@@ -11,7 +11,7 @@ The file receiving messages has 2 types of codes - static and dynamic. In static
 ```
 Some points to consider:
 1. For Arduino or ESP8266, just change the HardwareSerial library to SoftwareSerial library and accordingly
-map the GPIO pins.
+   map the GPIO pins.
 2. If your SIM900A is not working, try 12V/2A supply, mine worked with this only.
 3. The N/W led will blink every 3 seconds once a connection has been established.
 4. In India, SIM900A works well with 4G SIM Cards - Airtel, Idea and Vodafone but not with JIO.
