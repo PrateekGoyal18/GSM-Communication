@@ -8,7 +8,7 @@ The file "all functions" has the following features
         
 The file receiving messages has 2 types of codes - static and dynamic. In static, a reply message is sent to a specific number, irrespective of where it came from. But in dynamic, a reply message is sent to a number from which the message came from.
 
-```javascript
+```
 **Some points to consider:**
 1. For Arduino or ESP8266, just change the HardwareSerial library to SoftwareSerial library and accordingly map the GPIO pins.
 2. If your SIM900A is not working, try 12V/2A supply, mine worked with this only.
