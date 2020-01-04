@@ -1,10 +1,10 @@
 This repository has codes for interfacing GSM SIM900A with ESP32 microcontroller.
 
-The file "all functions" has the following features
+The file "all functions" has the following features:
 1. Sending SMS
 2. Receiving SMS
 3. Calling
-4. Receive a call
+4. Receiving a call
         
 The file receiving messages has 2 types of codes - static and dynamic. In static, a reply message is sent to a specific number, irrespective of where it came from. But in dynamic, a reply message is sent to a number from which the message came from.
 
